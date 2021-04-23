@@ -1,4 +1,4 @@
-package arrayrandomizer
+package main
 
 import "github.com/project-flogo/core/data/coerce"
 

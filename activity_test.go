@@ -1,4 +1,4 @@
-package arrayrandomizer
+package main
 
 import (
 	"testing"
