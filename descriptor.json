@@ -1,0 +1,22 @@
+{
+  "name": "arrayRandomize",
+  "type": "flogo:activity",
+  "version": "0.0.1",
+  "title": "Array Randomizer",
+  "author": "Adrian Muriel",
+  "settings": [
+  ],
+  "input": [
+    {
+      "name": "arrayIn",
+      "type": "array",
+      "required": true
+    }
+  ],
+  "output": [
+    {
+      "name": "arrayOut",
+      "type": "array"
+    }
+  ]
+}
