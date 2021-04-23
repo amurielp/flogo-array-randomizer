@@ -1,19 +1,18 @@
 {
-  "name": "arrayRandomize",
+  "name": "array_randomize",
   "type": "flogo:activity",
   "version": "0.0.1",
   "title": "Array Randomizer",
   "author": "Adrian Muriel",
-  "settings": [
-  ],
-  "input": [
+  "ref": "array_randomize/activity/array_randomize",
+  "inputs": [
     {
       "name": "arrayIn",
       "type": "array",
       "required": true
     }
   ],
-  "output": [
+  "outputs": [
     {
       "name": "arrayOut",
       "type": "array"
