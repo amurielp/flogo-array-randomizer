@@ -1,9 +1,15 @@
 {
   "name": "array_randomize",
-  "type": "flogo:activity",
-  "version": "0.0.1",
   "title": "Array Randomizer",
-  "author": "Adrian Muriel",
+  "version": "0.0.1",  
+  "type": "flogo:activity",
+  "author": "Adrian Muriel",    
+  "display": {
+    "category": "arrayRandomizer",
+    "visible": true,
+    "description": "This activity returns the array sent in the input in a random order"
+ },
+ 
   "ref": "array_randomize/activity/array_randomize",
   "inputs": [
     {

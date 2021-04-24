@@ -1,7 +1,8 @@
-package main
+package array_randomize
 
 import (
 	"math/rand"
+	"time"
 
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 	"github.com/TIBCOSoftware/flogo-lib/logger"
@@ -43,6 +44,7 @@ func (a *ArrRandActivity) Eval(context activity.Context) (done bool, err error) 
 	}
 	var newArray []interface{}
 	var arrayLen = len(input)
+	rand.Seed(time.Now().UTC().UnixNano())
 	for i := 0; i < arrayLen; i++ {
 		var rnd = rand.Intn(arrayLen - i)
 		//println(rnd)

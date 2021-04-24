@@ -1,4 +1,4 @@
-package main
+package array_randomize
 
 import (
 	"io/ioutil"
